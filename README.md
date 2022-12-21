@@ -42,6 +42,23 @@ systemctl enable zabbix-server zabbix-agent apache2
 
 Приложите скриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу. Приложите скриншот лога zabbix agent, где видно, что он работает с сервером. Приложите скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные. Приложите текст использованных команд в GitHub.
 
+Я немного промедлил между этими заданями на пару дней, ещё с гитом учился работать и кажется ещё не научился, короче по DHCP zab_ser уже получил другой IP, чем был скрин от задания №1 , но подключил два хоста к серверу скрин прилагаю, в zabbix_agentd.conf адрес сервера указал.
+![alt text](https://github.com/KozakPI/png/blob/main/zabbix2_1.png)
+
+На двух хостах прописал 
+#
+wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_6.0-4%2Bdebian11_all.deb
+
+dpkg -i zabbix-release_6.0-4+debian11_all.deb
+
+apt update
+#
+apt install zabbix-agent
+#
+systemctl restart zabbix-agent 
+
+systemctl enable zabbix-agent
+#
 
 
 # Задание 3*
