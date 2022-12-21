@@ -6,6 +6,9 @@
 Приложите скриншот авторизации в админке. Приложите текст использованных команд в GitHub.
 
 ![alt text](https://github.com/KozakPI/png/blob/main/zabbix.png)
+![alt text](https://github.com/KozakPI/png/blob/main/zabbix_1.png)
+
+
 
 Задание 2
 Установите Zabbix Agent на два хоста.
