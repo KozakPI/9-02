@@ -4,7 +4,8 @@
 Установите Zabbix Server с веб-интерфейсом.
 
 Приложите скриншот авторизации в админке. Приложите текст использованных команд в GitHub.
-![alt text]https://github.com/KozakPI/png/blob/main/zabbix.png
+
+![alt text] https://github.com/KozakPI/png/blob/main/zabbix.png
 
 Задание 2
 Установите Zabbix Agent на два хоста.
