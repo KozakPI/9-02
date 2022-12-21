@@ -59,7 +59,12 @@ systemctl restart zabbix-agent
 
 systemctl enable zabbix-agent
 #
+Чуть не забыл лог файл
 
+![alt text](https://github.com/KozakPI/png/blob/main/zabbix2_2.png)
+
+Monitoring > Latest data для обоих хостов
+![alt text](https://github.com/KozakPI/png/blob/main/zabbix2_3.png)
 
 # Задание 3*
 Установите Zabbix Agent на Windows компьютер и подключите его к серверу Zabbix.
