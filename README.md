@@ -70,3 +70,10 @@ Monitoring > Latest data для обоих хостов
 Установите Zabbix Agent на Windows компьютер и подключите его к серверу Zabbix.
 
 Приложите скриншот раздела Latest Data, где видно свободное место на диске C:
+
+Установил на win машину
+
+![alt text](https://github.com/KozakPI/png/blob/main/zabbix2_4.png)
+
+
+А вот стандартных не нашёл шаблонов, понятно что нужно новую создавать.. но что-то я запнулся с vfs.fs.size[C:,free]
